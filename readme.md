@@ -35,7 +35,7 @@ The Reddit Post Explorer is a web application built using Python and Streamlit t
 1. Run the following command to start the application:
 
    ```bash
-   streamlit run app.py
+   streamlit run main.py
    ```
 
 2. Open your web browser and go to `http://localhost:8501` to access the Reddit Post Explorer.
