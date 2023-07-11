@@ -1,0 +1,184 @@
+    div[data-testid="stImage"] {
+        border: 3px;
+        padding: 3px;
+        border-radius: 20px;
+        align-content: center;
+        margin: 1px;
+        padding: 1px;
+
+    }
+
+    div[data-testid="stExpander"] {
+        background-color: #393646;
+        text-align: justify;
+        border-color: #393646;
+    }
+
+    footer,
+    #MainMenu,
+    header {
+        visibility: hidden;
+    }
+
+    div[data-testid="stAppViewContainer"] {
+        background-color: #252422;
+        backdrop-filter: blur(5px);
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#252422), to(#393646));
+    }
+
+
+    div[data-testid="stTextInput"] {
+        background-color: #eb5e28;
+        border-radius: 5px;
+    }
+
+    div[role="selectbox"] ul {
+        background-color: #22223b;
+    }
+
+    img {
+        border-radius: 10px;
+        align-content: center;
+        margin: 1px;
+        padding: 1px;
+    }
+
+    a {
+        color: #eb5e28;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #eb5e28;
+    }
+
+    h1 {
+        font-family: 'Righteous', cursive;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    h2 {
+        font-family: 'Righteous', cursive;
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    h4 {
+        font-family: 'Raleway', sans-serif;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    h3 {
+        font-family: 'Righteous', cursive;
+    }
+
+    p {
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    caption {
+        font-family: 'Dosis', sans-serif;
+        color: white;
+    }
+
+    .image-caption {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px;
+        background-color: #22223b;
+        border-radius: 5px;
+        margin-top: 5px;
+    }
+
+    .image-caption span {
+        margin-right: 8px;
+        color: white;
+    }
+
+    .btn {
+        display: inline-block;
+        border: none;
+        background-color: #4a47a3;
+        color: white;
+        padding: 8px 16px;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    button[title="View fullscreen"] {
+        visibility: hidden;
+    }
+
+    .reddit-container {
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        background-color: #403d39;
+        margin-bottom: 20px;
+    }
+
+    .reddit-post-header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .reddit-post-header img {
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+    }
+
+    .reddit-post-title {
+        font-size: 18px;
+        font-weight: bold;
+        color: #eb5e28;
+        font-family: 'El Messiri', sans-serif;
+    }
+
+    .reddit-post-score {
+        margin-left: auto;
+        font-weight: bold;
+    }
+
+    .reddit-post-body {
+        margin-top: 5px;
+        background-color: #037971;
+    }
+
+    .reddit-post-link {
+        margin-top: 10px;
+        font-size: 16px;
+        color: #FF4500;
+    }
+
+    .reddit-post-text {
+        background-color: #a98467;
+        border-radius: 5px;
+        font-size: 16px;
+        padding: 5px;
+        margin: 5px;
+        word-wrap: break-word;
+    }
+
+    .score {
+        margin-right: 10px;
+    }
+
+    .comments {
+        margin-left: 5px;
+    }
+
+    i {
+        color: #eb5e28;
+    }
+
+    strong {
+        color: #252422;
+    }
